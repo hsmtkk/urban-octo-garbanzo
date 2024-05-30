@@ -1,0 +1,664 @@
+{
+  "search_metadata": {
+    "id": "6657cebe1baebb4019be8394",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/81e63232cf7459f3/6657cebe1baebb4019be8394.json",
+    "created_at": "2024-05-30 00:56:30 UTC",
+    "processed_at": "2024-05-30 00:56:30 UTC",
+    "google_finance_url": "https://www.google.com/finance/quote/CBOT:XWN24?hl=en",
+    "raw_html_file": "https://serpapi.com/searches/81e63232cf7459f3/6657cebe1baebb4019be8394.html",
+    "total_time_taken": 1.34
+  },
+  "search_parameters": {
+    "engine": "google_finance",
+    "q": "CBOT:XWN24",
+    "hl": "en"
+  },
+  "markets": {
+    "us": [
+      {
+        "stock": ".DJI:INDEXDJX",
+        "link": "https://www.google.com/finance/quote/.DJI:INDEXDJX",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.DJI%3AINDEXDJX",
+        "name": "Dow Jones",
+        "price": 38441.54,
+        "price_movement": {
+          "percentage": 1.0586616,
+          "value": 411.3203,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": ".INX:INDEXSP",
+        "link": "https://www.google.com/finance/quote/.INX:INDEXSP",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.INX%3AINDEXSP",
+        "name": "S&P 500",
+        "price": 5266.95,
+        "price_movement": {
+          "percentage": 0.73670465,
+          "value": 39.089844,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": ".IXIC:INDEXNASDAQ",
+        "link": "https://www.google.com/finance/quote/.IXIC:INDEXNASDAQ",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.IXIC%3AINDEXNASDAQ",
+        "name": "Nasdaq",
+        "price": 16920.58,
+        "price_movement": {
+          "percentage": 0.58343995,
+          "value": 99.30078,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "RUT:INDEXRUSSELL",
+        "link": "https://www.google.com/finance/quote/RUT:INDEXRUSSELL",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=RUT%3AINDEXRUSSELL",
+        "name": "Russell",
+        "price": 2036.1882,
+        "price_movement": {
+          "percentage": 1.4835535,
+          "value": 30.662842,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "VIX:INDEXCBOE",
+        "link": "https://www.google.com/finance/quote/VIX:INDEXCBOE",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=VIX%3AINDEXCBOE",
+        "name": "VIX",
+        "price": 14.28,
+        "price_movement": {
+          "percentage": 10.526313,
+          "value": 1.3599997,
+          "movement": "Up"
+        }
+      }
+    ],
+    "europe": [
+      {
+        "stock": "DAX:INDEXDB",
+        "link": "https://www.google.com/finance/quote/DAX:INDEXDB",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=DAX%3AINDEXDB",
+        "name": "DAX",
+        "price": 18473.29,
+        "price_movement": {
+          "percentage": 1.0953074,
+          "value": 204.58008,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "UKX:INDEXFTSE",
+        "link": "https://www.google.com/finance/quote/UKX:INDEXFTSE",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=UKX%3AINDEXFTSE",
+        "name": "FTSE 100",
+        "price": 8183.07,
+        "price_movement": {
+          "percentage": 0.8615013,
+          "value": 71.10986,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "PX1:INDEXEURO",
+        "link": "https://www.google.com/finance/quote/PX1:INDEXEURO",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=PX1%3AINDEXEURO",
+        "name": "CAC 40",
+        "price": 7935.03,
+        "price_movement": {
+          "percentage": 1.5236171,
+          "value": 122.77002,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "INDI:INDEXBME",
+        "link": "https://www.google.com/finance/quote/INDI:INDEXBME",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=INDI%3AINDEXBME",
+        "name": "IBEX 35",
+        "price": 11145.1,
+        "price_movement": {
+          "percentage": 1.1608762,
+          "value": 130.90039,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "SX5E:INDEXSTOXX",
+        "link": "https://www.google.com/finance/quote/SX5E:INDEXSTOXX",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SX5E%3AINDEXSTOXX",
+        "name": "STOXX 50",
+        "price": 4963.2,
+        "price_movement": {
+          "percentage": 1.3348953,
+          "value": 67.1499,
+          "movement": "Down"
+        }
+      }
+    ],
+    "asia": [
+      {
+        "stock": "NI225:INDEXNIKKEI",
+        "link": "https://www.google.com/finance/quote/NI225:INDEXNIKKEI",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NI225%3AINDEXNIKKEI",
+        "name": "Nikkei 225",
+        "price": 37757.53,
+        "price_movement": {
+          "percentage": 2.073145,
+          "value": 799.33984,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "000001:SHA",
+        "link": "https://www.google.com/finance/quote/000001:SHA",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=000001%3ASHA",
+        "name": "SSE",
+        "price": 3111.0176,
+        "price_movement": {
+          "percentage": 0.046487316,
+          "value": 1.4455566,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "HSI:INDEXHANGSENG",
+        "link": "https://www.google.com/finance/quote/HSI:INDEXHANGSENG",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=HSI%3AINDEXHANGSENG",
+        "name": "HSI",
+        "price": 18477.01,
+        "price_movement": {
+          "percentage": 0.0,
+          "value": 0.0
+        }
+      },
+      {
+        "stock": "SENSEX:INDEXBOM",
+        "link": "https://www.google.com/finance/quote/SENSEX:INDEXBOM",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SENSEX%3AINDEXBOM",
+        "name": "SENSEX",
+        "price": 74502.9,
+        "price_movement": {
+          "percentage": 0.8880546,
+          "value": 667.5547,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "NIFTY_50:INDEXNSE",
+        "link": "https://www.google.com/finance/quote/NIFTY_50:INDEXNSE",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NIFTY_50%3AINDEXNSE",
+        "name": "NIFTY 50",
+        "price": 22704.7,
+        "price_movement": {
+          "percentage": 0.8015116,
+          "value": 183.45117,
+          "movement": "Down"
+        }
+      }
+    ],
+    "currencies": [
+      {
+        "stock": "EUR-USD",
+        "link": "https://www.google.com/finance/quote/EUR-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=EUR-USD",
+        "name": "EUR / USD",
+        "price": 1.079709,
+        "price_movement": {
+          "percentage": 0.04082766282459971,
+          "value": 0.0004409999999999137,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "USD-JPY",
+        "link": "https://www.google.com/finance/quote/USD-JPY",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=USD-JPY",
+        "name": "USD / JPY",
+        "price": 157.517,
+        "price_movement": {
+          "percentage": 0.060591640891436566,
+          "value": 0.09550000000001546,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "GBP-USD",
+        "link": "https://www.google.com/finance/quote/GBP-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=GBP-USD",
+        "name": "GBP / USD",
+        "price": 1.26946,
+        "price_movement": {
+          "percentage": 0.020870660969891885,
+          "value": 0.0002649999999999597,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "USD-CAD",
+        "link": "https://www.google.com/finance/quote/USD-CAD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=USD-CAD",
+        "name": "USD / CAD",
+        "price": 1.3720249999999998,
+        "price_movement": {
+          "percentage": 0.005466671525917505,
+          "value": 7.49999999998252e-05,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "AUD-USD",
+        "link": "https://www.google.com/finance/quote/AUD-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=AUD-USD",
+        "name": "AUD / USD",
+        "price": 0.6612,
+        "price_movement": {
+          "percentage": 0.013609762736458057,
+          "value": 8.999999999992347e-05,
+          "movement": "Down"
+        }
+      }
+    ],
+    "crypto": [
+      {
+        "stock": "BTC-USD",
+        "link": "https://www.google.com/finance/quote/BTC-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=BTC-USD",
+        "name": "Bitcoin",
+        "price": 67503.6,
+        "price_movement": {
+          "percentage": 0.11186874067759203,
+          "value": 75.59999999999127,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "ETH-USD",
+        "link": "https://www.google.com/finance/quote/ETH-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=ETH-USD",
+        "name": "Ethereum",
+        "price": 3750.7000000000003,
+        "price_movement": {
+          "percentage": 0.3263371051666431,
+          "value": 12.279999999999745,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "ADA-USD",
+        "link": "https://www.google.com/finance/quote/ADA-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=ADA-USD",
+        "name": "Cardano",
+        "price": 0.45149029360000004,
+        "price_movement": {
+          "percentage": 0.12262189088412973,
+          "value": 0.0005529479000000448,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "XRP-USD",
+        "link": "https://www.google.com/finance/quote/XRP-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=XRP-USD",
+        "name": "XRP",
+        "price": 0.5244837048000001,
+        "price_movement": {
+          "percentage": 0.12091926598228192,
+          "value": 0.00063343590000009,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "DOGE-USD",
+        "link": "https://www.google.com/finance/quote/DOGE-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=DOGE-USD",
+        "name": "Dogecoin",
+        "price": 0.1633726489,
+        "price_movement": {
+          "percentage": 0.3948351294666538,
+          "value": 0.0006476096000000153,
+          "movement": "Down"
+        }
+      }
+    ],
+    "futures": [
+      {
+        "stock": "YMW00:CBOT",
+        "link": "https://www.google.com/finance/quote/YMW00:CBOT",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=YMW00%3ACBOT",
+        "name": "Dow Futures",
+        "price": 38260.0,
+        "currency": "USD",
+        "price_movement": {
+          "percentage": 0.6852871,
+          "value": 264.0,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "ESW00:CME_EMINIS",
+        "link": "https://www.google.com/finance/quote/ESW00:CME_EMINIS",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=ESW00%3ACME_EMINIS",
+        "name": "S&P Futures",
+        "price": 5264.5,
+        "currency": "USD",
+        "price_movement": {
+          "percentage": 0.3690386,
+          "value": 19.5,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "NQW00:CME_EMINIS",
+        "link": "https://www.google.com/finance/quote/NQW00:CME_EMINIS",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NQW00%3ACME_EMINIS",
+        "name": "Nasdaq Futures",
+        "price": 18716.0,
+        "currency": "USD",
+        "price_movement": {
+          "percentage": 0.46136868,
+          "value": 86.75,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "GCW00:COMEX",
+        "link": "https://www.google.com/finance/quote/GCW00:COMEX",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=GCW00%3ACOMEX",
+        "name": "Gold",
+        "price": 2357.60009765625,
+        "currency": "USD",
+        "price_movement": {
+          "percentage": 0.27494606,
+          "value": 6.5,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "CLW00:NYMEX",
+        "link": "https://www.google.com/finance/quote/CLW00:NYMEX",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=CLW00%3ANYMEX",
+        "name": "Crude Oil",
+        "price": 79.19999694824219,
+        "currency": "USD",
+        "price_movement": {
+          "percentage": 0.037872534,
+          "value": 0.030006409,
+          "movement": "Down"
+        }
+      }
+    ],
+    "top_news": {
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-slides-nvidia-stock-salesforce-plunges-late/",
+      "snippet": "Dow Jones Futures: Stock Market Slides Even As Nvidia Keeps Rising; Salesforce Plunges Late",
+      "source": "Investor's Business Daily",
+      "date": "31 minutes ago"
+    }
+  },
+  "futures_chain": [
+    {
+      "stock": "CBOT:EPA",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=CBOT%3AEPA",
+      "link": "https://www.google.com/finance/quote/CBOT:EPA",
+      "date": "Cbo Territoria SA",
+      "price": "€3.80",
+      "extracted_price": 3.8,
+      "currency": "€",
+      "price_movement": {
+        "percentage": 1.06,
+        "movement": "Up"
+      }
+    },
+    {
+      "stock": "XWN24:CBOT",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=XWN24%3ACBOT",
+      "link": "https://www.google.com/finance/quote/XWN24:CBOT",
+      "date": "Jul 2024",
+      "price": "0.00",
+      "extracted_price": 0.0,
+      "price_movement": {
+        "percentage": 0.0
+      }
+    }
+  ],
+  "discover_more": [
+    {
+      "title": "You may be interested in",
+      "items": [
+        {
+          "stock": ".DJI:INDEXDJX",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.DJI%3AINDEXDJX",
+          "link": "https://www.google.com/finance/quote/.DJI:INDEXDJX",
+          "name": "Dow Jones Industrial Average",
+          "price": "38,441.54",
+          "extracted_price": 38441.54,
+          "price_movement": {
+            "percentage": 1.06,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": ".INX:INDEXSP",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.INX%3AINDEXSP",
+          "link": "https://www.google.com/finance/quote/.INX:INDEXSP",
+          "name": "S&P 500",
+          "price": "5,266.95",
+          "extracted_price": 5266.95,
+          "price_movement": {
+            "percentage": 0.74,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "TSLA:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=TSLA%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/TSLA:NASDAQ",
+          "name": "Tesla Inc",
+          "price": "$176.19",
+          "extracted_price": 176.19,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.32,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "AAPL:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=AAPL%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/AAPL:NASDAQ",
+          "name": "Apple Inc",
+          "price": "$190.29",
+          "extracted_price": 190.29,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.16,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "AMZN:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=AMZN%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/AMZN:NASDAQ",
+          "name": "Amazon.com Inc",
+          "price": "$182.02",
+          "extracted_price": 182.02,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.071,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "BABA:NYSE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=BABA%3ANYSE",
+          "link": "https://www.google.com/finance/quote/BABA:NYSE",
+          "name": "Alibaba Group Holding Ltd - ADR",
+          "price": "$79.06",
+          "extracted_price": 79.06,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 1.89,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "F:NYSE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=F%3ANYSE",
+          "link": "https://www.google.com/finance/quote/F:NYSE",
+          "name": "Ford Motor Co",
+          "price": "$11.56",
+          "extracted_price": 11.56,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 1.03,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "NXST:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NXST%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/NXST:NASDAQ",
+          "name": "Nexstar Media Group Inc",
+          "price": "$156.55",
+          "extracted_price": 156.55,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.74,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "VIX:INDEXCBOE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=VIX%3AINDEXCBOE",
+          "link": "https://www.google.com/finance/quote/VIX:INDEXCBOE",
+          "name": "VIX",
+          "price": "14.28",
+          "extracted_price": 14.28,
+          "price_movement": {
+            "percentage": 10.53,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "MSFT:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=MSFT%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/MSFT:NASDAQ",
+          "name": "Microsoft Corp",
+          "price": "$429.17",
+          "extracted_price": 429.17,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.27,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": ".IXIC:INDEXNASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.IXIC%3AINDEXNASDAQ",
+          "link": "https://www.google.com/finance/quote/.IXIC:INDEXNASDAQ",
+          "name": "Nasdaq Composite",
+          "price": "16,920.58",
+          "extracted_price": 16920.58,
+          "price_movement": {
+            "percentage": 0.58,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "DIS:NYSE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=DIS%3ANYSE",
+          "link": "https://www.google.com/finance/quote/DIS:NYSE",
+          "name": "Walt Disney Co",
+          "price": "$100.88",
+          "extracted_price": 100.88,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 1.52,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "SPY:NYSEARCA",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SPY%3ANYSEARCA",
+          "link": "https://www.google.com/finance/quote/SPY:NYSEARCA",
+          "name": "SPDR S&P 500 ETF Trust",
+          "price": "$526.10",
+          "extracted_price": 526.1,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.7,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "UAL:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=UAL%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/UAL:NASDAQ",
+          "name": "United Airlines Holdings Inc",
+          "price": "$51.83",
+          "extracted_price": 51.83,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 2.35,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "T:NYSE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=T%3ANYSE",
+          "link": "https://www.google.com/finance/quote/T:NYSE",
+          "name": "AT&T Inc",
+          "price": "$17.12",
+          "extracted_price": 17.12,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.87,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "AAL:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=AAL%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/AAL:NASDAQ",
+          "name": "American Airlines Group Inc",
+          "price": "$11.62",
+          "extracted_price": 11.62,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 13.54,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "BA:NYSE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=BA%3ANYSE",
+          "link": "https://www.google.com/finance/quote/BA:NYSE",
+          "name": "Boeing Co",
+          "price": "$171.65",
+          "extracted_price": 171.65,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 1.96,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "PFE:NYSE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=PFE%3ANYSE",
+          "link": "https://www.google.com/finance/quote/PFE:NYSE",
+          "name": "Pfizer Inc",
+          "price": "$27.82",
+          "extracted_price": 27.82,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 1.7,
+            "movement": "Down"
+          }
+        }
+      ]
+    }
+  ]
+}
