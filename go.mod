@@ -1,4 +1,4 @@
-module github.com/hsmtkk/urban-octo-garbanzo
+module github.com/hsmtkk/wheat-future-sim
 
 go 1.22.1
 

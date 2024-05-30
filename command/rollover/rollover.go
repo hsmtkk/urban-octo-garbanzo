@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/hsmtkk/urban-octo-garbanzo/rollover"
+	"github.com/hsmtkk/wheat-future-sim/rollover"
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/spf13/cobra"
 )

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hsmtkk/urban-octo-garbanzo/symbol"
+	"github.com/hsmtkk/wheat-future-sim/symbol"
 	"github.com/stretchr/testify/assert"
 )
 
