@@ -1,8 +1,8 @@
 package command
 
 import (
-	"github.com/hsmtkk/urban-octo-garbanzo/command/rollover"
-	"github.com/hsmtkk/urban-octo-garbanzo/command/updateprice"
+	"github.com/hsmtkk/wheat-future-sim/command/rollover"
+	"github.com/hsmtkk/wheat-future-sim/command/updateprice"
 	"github.com/spf13/cobra"
 )
 

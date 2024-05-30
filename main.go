@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/hsmtkk/urban-octo-garbanzo/command"
+	"github.com/hsmtkk/wheat-future-sim/command"
 )
 
 func main() {

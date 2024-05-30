@@ -3,7 +3,7 @@ package googlefinance
 import (
 	"os"
 
-	"github.com/hsmtkk/urban-octo-garbanzo/myhttp"
+	"github.com/hsmtkk/wheat-future-sim/myhttp"
 )
 
 const URL = "https://serpapi.com/search?engine=google_finance"
